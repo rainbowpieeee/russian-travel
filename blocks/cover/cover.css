@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+    .cover {
+        max-width: 100%;
+    }
+}    
+
+@media (max-width: 768px) {
+    .cover {
+        max-width: 100%;
+    }
+}    
+
+@media (max-width: 320px) {
+    .cover {
+        max-width: 100%;
+        margin: 0;
+    }
+}    
+
+.cover {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: calc(100% - (48px * 2));
+    margin: 0 auto;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 245px;
+    padding-bottom: 245px;
+}

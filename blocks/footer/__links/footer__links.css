@@ -1,0 +1,13 @@
+@media (max-width: 320px) {
+    .footer__links {
+        flex-direction: column;
+        align-self: flex-start;
+    }
+}    
+
+.footer__links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}

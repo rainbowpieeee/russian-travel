@@ -1,0 +1,18 @@
+.intro__text {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.63;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./vendor/fonts/InterWeb/Inter-Regular.woff2)format("woff2"),
+         url(./vendor/fonts/InterWeb/Inter-Regular.woff)format("woff");
+}
