@@ -20,12 +20,3 @@
 .place__link:hover {
     opacity: 0.8;
 }
-
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(./vendor/fonts/InterWeb/Inter-Regular.woff2)format("woff2"),
-         url(./vendor/fonts/InterWeb/Inter-Regular.woff)format("woff");
-}

@@ -15,12 +15,3 @@
     padding: 0;
     margin: 32px auto 64px;
 }
-
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(./vendor/fonts/InterWeb/Inter-Regular.woff2)format("woff2"),
-         url(./vendor/fonts/InterWeb/Inter-Regular.woff)format("woff");
-}

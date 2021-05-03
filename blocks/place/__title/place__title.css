@@ -29,12 +29,3 @@
     line-height: 76px;
     max-width: 460px;
 }
-
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url(./vendor/fonts/InterWeb/Inter-Black.woff2)format("woff2"),
-         url(./vendor/fonts/InterWeb/Inter-Black.woff)format("woff");
-}
