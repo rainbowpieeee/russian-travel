@@ -1,3 +1,14 @@
+.place {
+    padding: 0;
+    margin: 0 0 80px;
+    display: grid;
+    height: auto;
+    grid-template-columns: 47% auto;
+    grid-template-rows: auto auto;
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
 @media (max-width: 1024px) {
     .place {
     column-gap: 32px;
@@ -19,15 +30,4 @@
     row-gap: 32px;
     margin: 0 0 50px;
     }  
-}
-
-.place {
-    padding: 0;
-    margin: 0 0 80px;
-    display: grid;
-    height: auto;
-    grid-template-columns: 47% auto;
-    grid-template-rows: auto auto;
-    column-gap: 40px;
-    row-gap: 48px;
 }

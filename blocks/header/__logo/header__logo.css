@@ -1,12 +1,12 @@
-@media (max-width: 320px) {
-    .header__logo {
-        width: 142px;
-    }
-}
-
 .header__logo {
     display: flex;
     padding: 0;
     margin: 0;
     width: 176px;
+}
+
+@media (max-width: 320px) {
+    .header__logo {
+        width: 142px;
+    }
 }

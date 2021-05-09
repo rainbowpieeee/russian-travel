@@ -1,15 +1,3 @@
-@media (max-width: 1024px) {
-    .cover__subtitle {
-    margin: 32px auto 195px;
-    }
-}
-
-@media (max-width: 768px) {
-    .cover__subtitle {
-    margin: 32px auto 115px;
-    }
-}
-
 .cover__subtitle {
     display: flex;
     font-family: 'Inter', 'Arial', sans-serif;
@@ -22,5 +10,17 @@
     padding: 0;
     margin: 32px auto 245px;
     color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .cover__subtitle {
+    margin: 32px auto 195px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__subtitle {
+    margin: 32px auto 115px;
+    }
 }
 

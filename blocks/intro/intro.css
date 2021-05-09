@@ -1,3 +1,13 @@
+ .intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 690px;
+    padding: 0;
+    margin-top: 92px;
+    margin-bottom: 92px;
+    margin-left: 148px;
+}
+
 @media (max-width: 1024px) {
     .intro {
         margin-left: 48px;
@@ -16,14 +26,4 @@
         max-width: calc(100% - 32px);
         margin: 56px auto 64px;
     }
-}   
-
-.intro {
-    display: flex;
-    flex-direction: column;
-    max-width: 690px;
-    padding: 0;
-    margin-top: 92px;
-    margin-bottom: 92px;
-    margin-left: 148px;
-}
+}  
