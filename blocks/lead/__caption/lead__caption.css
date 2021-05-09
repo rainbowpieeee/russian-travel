@@ -1,4 +1,17 @@
+@media (max-width: 768px) {
+    .lead__caption {
+    margin-left: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__caption {
+    margin-left: 16px;
+    }
+}
+
 .lead__caption {
+    font-family: 'Inter', 'Arial', sans-serif;
     display: flex;
     justify-content: flex-start;
     padding: 0;

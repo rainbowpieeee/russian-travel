@@ -1,10 +1,26 @@
 .cover__overlay {
-    background-color: #2A2C2F;
-    opacity: 0.7;
+    text-decoration: none;
+    color: #fff;
+    z-index: 1;
 }
 
-.cover__overlay:hover {
+.cover__overlay::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
     background-color: #2A2C2F;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
     opacity: 0.3;
-    transition: 1s;
+}
+
+.cover__overlay:hover:before {
+    opacity: 0.8;
+    transition: 0.5s;
 }

@@ -1,27 +1,22 @@
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .intro {
-        max-width: calc(100% - 32px);
-        margin: 56px auto 64px;
+        margin-left: 48px;
     }
-}
+} 
 
 @media (max-width: 768px) {
-    .lead__title {
-        width: calc(100% - 48px);
-        font-size: 12vw;
-    }
     .intro {
         max-width: calc(100% - 48px);
         margin: 88px auto;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 320px) {
     .intro {
-        max-width: calc(100% - 96px);
-        margin: 88px auto;
+        max-width: calc(100% - 32px);
+        margin: 56px auto 64px;
     }
-}    
+}   
 
 .intro {
     display: flex;

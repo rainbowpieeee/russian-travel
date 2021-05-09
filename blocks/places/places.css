@@ -7,7 +7,7 @@
 
 @media (max-width: 768px) {
     .places {
-        margin: 88px auto;
+        margin: 88px auto 80px;
         max-width: calc(100% - 48px);
     }
 }    
@@ -20,10 +20,10 @@
 }    
 
 .places {
-    margin: 92px auto;
-    padding: 0;
-    max-width: 984px;
     display: flex;
     position: relative;
     flex-direction: column;
+    max-width: 984px;
+    margin: 85px auto 0;
+    padding: 0;
 }
