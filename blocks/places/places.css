@@ -1,10 +1,10 @@
 .places {
+    margin: 85px auto 0;
+    padding: 0;
+    max-width: 984px;
     display: flex;
     position: relative;
     flex-direction: column;
-    max-width: 984px;
-    margin: 85px auto 0;
-    padding: 0;
 }
 
 @media (max-width: 1024px) {

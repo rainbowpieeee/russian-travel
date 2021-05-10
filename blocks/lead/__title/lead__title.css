@@ -10,23 +10,23 @@
     text-align: center;
 }
 
-@media (max-width: 370px) {
+@media (max-width: 768px) {
     .lead__title {
-    max-width: calc(100% - 32px);
-    font-size: 40px;
-    line-height: 44px;
+        max-width: calc(100% - 48px);
     }
-}  
+}
 
 @media (max-width: 730px) {
     .lead__title {
     max-width: 100%;
     font-size: 12vw;
     }
-} 
+}
 
-@media (max-width: 768px) {
+@media (max-width: 370px) {
     .lead__title {
-        max-width: calc(100% - 48px);
+    max-width: calc(100% - 32px);
+    font-size: 40px;
+    line-height: 44px;
     }
-}   
+}
