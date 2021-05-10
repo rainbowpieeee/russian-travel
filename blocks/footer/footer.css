@@ -8,15 +8,15 @@
     color: #fff;
 }
 
+@media (max-width: 768px) {
+    .footer {
+    margin: 88px 24px 24px;
+    }
+}
+
 @media (max-width: 750px) {
     .footer {
         align-items: flex-start;
         flex-direction: column;
-    }
-}
-
-@media (max-width: 768px) {
-    .footer {
-    margin: 88px 24px 24px;
     }
 }
